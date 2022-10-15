@@ -13,7 +13,25 @@ export default function App() {
       <small>
         <Dictionary />
       </small>
-      <footer className="App-footer mt-4">Coded by SheCodes</footer>
+      <footer className="App-footer mt-4">
+      This project was coded by Olga Zivenko and is {" "}  
+        <a
+          className="App-link"
+          href="https://github.com/Olga-Zivenko/dictionary-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+            open-sourced on GitHub {""}</a>{""}
+            and {""}
+            <a
+          className="App-link"
+          href="https://voluble-unicorn-31ad17.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+            hosted on Netlify</a>
+        
+        </footer>
     </div>
     </div>
   );
