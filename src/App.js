@@ -25,7 +25,7 @@ export default function App() {
             and {""}
             <a
           className="App-link"
-          href="https://voluble-unicorn-31ad17.netlify.app/"
+          href="https://sage-faun-d39d35.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
