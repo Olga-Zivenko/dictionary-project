@@ -11,7 +11,7 @@ export default function App() {
        
       </header>
       <small>
-        <Dictionary defaultKeyword="nature" />
+        <Dictionary defaultKeyword="peace" />
       </small>
       <footer className="App-footer mt-4">
       This project was coded by Olga Zivenko and is {" "}  
