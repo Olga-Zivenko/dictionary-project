@@ -10,6 +10,7 @@ console.log(props.meaning);
         </h3>  
         <Synonyms synonyms={props.meaning.synonyms} />
         {props.meaning.definitions.map(function(definition, index){
+            if (definition.example){
             return(
                 <div key={index}>
                     <p>
@@ -21,7 +22,17 @@ console.log(props.meaning);
                     <Synonyms synonyms={definition.synonyms} />
                      </p>
                     </div>
-            )
+            )}
+            else {return(
+                <div key={index}>
+                    <p>
+                    <strong>Definition: </strong>{definition.definition}
+                    <br />
+                    <Synonyms synonyms={definition.synonyms} />
+                     </p>
+                    </div>)
+
+            }
         })}
                 </div>  )
 }
